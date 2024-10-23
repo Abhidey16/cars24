@@ -15,8 +15,9 @@ with col1:
 with col2: 
     Vehical_type = st.selectbox("Vehical Type", ["Manual", "Automatic"])
 
-# with col3:
-#     age = st.selectbox("age of car",[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
+with col3:
+    seller_type = st.selectbox("Seller type", ["Individual", "Dealer"])
+
 
 
 col4, col5, col6 = st.columns(3)
@@ -31,6 +32,7 @@ with col6:
     mileage = st.slider("mileage", 5, 120, step=2)
     
 
+
 col7, col8, col9 = st.columns(3)
 
 with col7:
@@ -39,16 +41,16 @@ with col7:
 with col8:
     max_power= st.slider("max speed (HP)", 60, 500, step=20)
 
-# with col9:
-#     make = st.selectbox("Company", ['MARUTI', 'HYUNDAI'])
-    
-col11, col12, col13 = st.columns(3)
-with col11:
+with col9:
     year = st.slider("year",2010, 2023, step=1)
+    
+# col11, col12, col13 = st.columns(3)
+# with col11:
 
-with col12:
-    seller_type = st.selectbox("Seller type", ["Individual", "Dealer"])
-  
+#     make = st.selectbox("Company", ['MARUTI', 'HYUNDAI'])
+# with col12:
+
+#     age = st.selectbox("age of car",[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
 # with col13:
 #     age = st.slider("Age of Car",1, 20, step=1)
   
