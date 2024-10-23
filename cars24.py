@@ -83,4 +83,4 @@ else:
     st.write("Click on Predict, once you're done with the data")
 
 
-    
+    # pip freeze > requirments.txt

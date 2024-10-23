@@ -63,9 +63,4 @@ else:
 
 
 # pip freeze > requirements.txt
-# pipreqs .
-    # k
-    # bvb l fks 
-    # fjg
-    #  jbu jhr
-    #  h e]
+
